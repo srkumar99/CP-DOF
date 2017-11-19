@@ -9,12 +9,6 @@
 	<description>Learn Java JSP and Servlet</description>
 
 	<dependencies>
-		<!-- Unit Test -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.11</version>
-		</dependency>		
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -55,13 +49,4 @@
 			</plugin>			
 		</plugins>
 	</build>
-	
-<distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>devops-training-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>	
-	
 </project>
